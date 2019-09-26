@@ -3,6 +3,6 @@ const numbers = [];
       if(input === "" || input === null){
         prompt()
     } else {
-      numbers.splice(prompt("Enter a number")   
+      numbers.push(prompt("Enter a number")   
       )}
     
