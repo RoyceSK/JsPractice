@@ -8,9 +8,9 @@
 //------------------------ Модуль 1/Задание №2
 
 // const total = 100;
-// let i = prompt("Какое кол-во товаров");
-// const ordered = i;
-//  if( i <= total){
+
+// const ordered = prompt("Какое кол-во товаров");
+//  if( ordered <= total){
 //    alert('Заказ оформлен, с вами свяжется менеджер')
 //  } else {
 //    alert("На складе недостаточно твоаров!")
@@ -22,73 +22,63 @@
 // let status = prompt('Enter your password');
 // let message; 
 // if( status === ADMIN_PASSWORD){
-//   alert('Добро пожаловать!')}
-// if(status === null){
+//   alert('Добро пожаловать!')
+// } else if(status === null){
 // alert('Отменено пользователем!')} 
-// if(status !== ADMIN_PASSWORD){
+// else{
 //   alert('Доступ запрещен, неверный пароль!')
-// }else{
-
 // }
 
 //------------------------ Модуль 1/Задание №4
 // let credits = 23580;
 // let pricePerDroid = 3000; 
 
-// let totalPrice = prompt('Количество дроидов которые пользователь хочет купить', Number())*pricePerDroid; 
-// let quantity = Number(prompt());
-// let leftCredits = (pricePerDroid*quantity)-credits;
+// let totalPrice = prompt('Количество дроидов которые пользователь хочет купить', Number()); 
+// let quantity = totalPrice;
+// let leftCredits = credits-(pricePerDroid*quantity);
 
 // if(totalPrice === null){
 //   alert('Отменено пользователем!')}
   
-// if(totalPrice > credits){
-//   alert('Недостаточно средств на счету!')
+// else if(totalPrice * pricePerDroid){
+//   console.log(`Вы купили ${quantity} дроидов, на счету осталось ${leftCredits}`)
 // }
 //   else{
-  
+//     totalPrice < credits
+//   alert('Недостаточно средств на счету!')
 //     }
-// console.log(`Вы купили ${quantity} дроидов, на счету осталось ${leftCredits}`)
+
 
  //------------------------ Модуль 1/Задание №5
 
 //  let cost;
-//  const delivery = prompt("Укажите страну доставки")
-// //  string.toLocaleUpperCase().includes("Китай") ||
-// //  string.toLocaleUpperCase().includes("Чили") ||
-// //  string.toLocaleUpperCase().includes("Австралия") ||
-// //  string.toLocaleUpperCase().includes("Индия") ||
-// // string.toLocaleUpperCase().includes("Ямайка");
- 
+//  const delivery = prompt("Укажите страну доставки").toLowerCase()
 
- 
- 
-  
 // switch (delivery){
-//   case "Китай":
-//   cost = 100;
-//   console.log(`Доставка в ${"Китай"} будет стоить ${100} кредитов`)
-//   break;
+//   case "китай":
+//     cost = 100;
+//     console.log(`Доставка в ${delivery} будет стоить ${cost} кредитов`)
+//     break;
 
-//   case "Чили":
-//   cost = 250;
-//   console.log(`Доставка в ${"Чили"} будет стоить ${250} кредитов`)
-//   break;
+//   case "чили":
+//     cost = 250;
+//     console.log(`Доставка в ${delivery} будет стоить ${cost} кредитов`)
+//     break;
 
-//   case "Австралия":
-//   cost = 170;
-//   console.log(`Доставка в ${"Австралия"} будет стоить ${170} кредитов`)
-//   break;
+//   case "австралия":
+//     cost = 170;
+//     console.log(`Доставка в ${delivery} будет стоить ${cost} кредитов`)
+//     break;
 
-//   case "Индия":
-//   cost = 80;
-//   console.log(`Доставка в ${"Индия"} будет стоить ${80} кредитов`)
-//   break;
+//   case "индия":
+//     cost = 80;
+//     console.log(`Доставка в ${delivery} будет стоить ${cost} кредитов`)
+//     break;
 
-//   case "Ямайка":
-//   cost = 120;
-//   console.log(`Доставка в ${"Ямайка"} будет стоить ${120} кредитов`)
-//   break;
+//   case "ямайка":
+//     cost = 120;
+//     console.log(`Доставка в $${delivery} будет стоить ${cost} кредитов`)
+//     break;
 
 //   default:
 //     alert('В вашей стране доставка не доступна');
