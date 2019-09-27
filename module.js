@@ -193,19 +193,22 @@
 
 // console.log(checkForSpam("[SPAM] How to earn fast money?")); // true
 
+
 //-------------------------- Модуль 2/Задаие №6
 
+// let input;
 // const numbers = [];
-//   let input = prompt("Enter a number");
-//       if(input === "" || input === null){
-//          numbers.length.push(prompt())
-//     } else {
-//       numbers.push(prompt())   
-//       }  использовать do & while в переменную input ты записываешь результат prompt, и в блоке while проверяешь этот input
-    
-  
-
-
+// let total = 0;
+//  while(true){
+//     input = prompt("Enter a number");
+//      if(input === "" || input === null){
+//        alert('Отменено пользователем!')
+//        break;
+//      } else{
+//       numbers.push(input)
+//       total += +input;
+//      }
+//     }
 
 
 
