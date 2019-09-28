@@ -387,25 +387,22 @@
 //   { name: 'Захват', price: 1200, quantity: 2 },
 // ];
 
-// const keys = Object.keys(products);
-// const keys1 = Object.entries(products)
+// const getAllPropValues = function(products, key){
+//  const someValues = [];
 
-// getAllPropValues = function(){
-//   'name' = products.name;
-//   'quantity' = products.quantity;
+//  for(const user of products){
+//     someValues.push(user[key])
 
+//     if(key in products ){
+//       someValues.push(user[key])
+//     }
+//  }
+//  return someValues;
 // }
 
-  
-//console.log(keys1); // ['Радар', 'Сканер', 'Дроид', 'Захват']
-// console.log(getAllPropValues(products, 'name'));
-
+// console.log(getAllPropValues(products, 'name')); // ['Радар', 'Сканер', 'Дроид', 'Захват']
 // console.log(getAllPropValues(products, 'quantity')); // [4, 3, 7, 2]
-
 // console.log(getAllPropValues(products, 'category')); // []
-
-
-
 
 
 //----------------------Задаие unknown
