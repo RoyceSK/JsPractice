@@ -1,11 +1,15 @@
-//------------------------ Модуль 1/Задание №1
+//------------------------ Модуль 1/Задание №1√-------------------------- 
 
 // let name = 'Генератор защитного поля';
 // let price = 1000;
 // console.log(`Выбран ${(name)}`) 
 // console.log(`цена за штуку ${(price)} кредитов`)
 
-//------------------------ Модуль 1/Задание №2
+
+
+
+
+//------------------------ Модуль 1/Задание №2√-------------------------- 
 
 // const total = 100;
 
@@ -16,7 +20,11 @@
 //    alert("На складе недостаточно твоаров!")
 //  }
 
-  //------------------------ Модуль 1/Задание №3 Not FINISHED
+
+
+
+
+//------------------------ Модуль 1/Задание №3√-------------------------- 
 
 // const ADMIN_PASSWORD = 'jqueryismyjam';
 // let status = prompt('Enter your password');
@@ -29,7 +37,11 @@
 //   alert('Доступ запрещен, неверный пароль!')
 // }
 
-//------------------------ Модуль 1/Задание №4
+
+
+
+
+//------------------------ Модуль 1/Задание №4√-------------------------- 
 // let credits = 23580;
 // let pricePerDroid = 3000; 
 
@@ -49,7 +61,10 @@
 //     }
 
 
- //------------------------ Модуль 1/Задание №5
+
+
+
+//------------------------ Модуль 1/Задание №5√-------------------------- 
 
 //  let cost;
 //  const delivery = prompt("Укажите страну доставки").toLowerCase()
@@ -85,7 +100,10 @@
 // }
    
 
- //------------------------ Модуль 1/Задание №6
+
+
+
+//------------------------ Модуль 1/Задание №6√-------------------------- 
 //  let input;
 //  let total = 0;
 
@@ -106,7 +124,11 @@
 
 // alert(total);
 
-//-----------------------Модуль 2/Задание №1 
+
+
+
+
+//-----------------------Модуль 2/Задание №1 √-------------------------- 
 // const logItems = array => {
 //   array.forEach((element, index) => {
 //     console.log(`${index + 1} - ${element}`);
@@ -121,7 +143,11 @@
 //   return string.split(" ").length * price;
 // };
 
-//---------------------- Модуль 2/Задание №2
+
+
+
+
+//---------------------- Модуль 2/Задание №2√-------------------------- 
 // console.log(
 //   calculateEngravingPrice(
 //     "Proin sociis natoque et magnis parturient montes mus",
@@ -140,7 +166,11 @@
 
 // console.log(calculateEngravingPrice("Donec orci lectus aliquam est", 20)); // 100
 
-//----------------------- Модуль 2/Задание №3
+
+
+
+
+//----------------------- Модуль 2/Задание №3√-------------------------- 
 // const findLongestWord = string => {
 //   let longestWord = "";
 
@@ -161,7 +191,11 @@
 
 // console.log(findLongestWord("May the force be with you")); // 'force'
 
-//------------------------- Модуль 2/Задаие №4
+
+
+
+
+//------------------------- Модуль 2/Задаие №4√-------------------------- 
 // const formatString = string =>
 //   string.length > 40 ? string.slice(0, 40) + "..." : string;
 
@@ -180,7 +214,11 @@
 //   )
 // );
 
-//-------------------------- Модуль 2/Задаие №5
+
+
+
+
+//-------------------------- Модуль 2/Задаие №5√-------------------------- 
 // const checkForSpam = string =>
 //   string.toLowerCase().includes("spam") ||
 //   string.toLowerCase().includes("sale");
@@ -194,7 +232,10 @@
 // console.log(checkForSpam("[SPAM] How to earn fast money?")); // true
 
 
-//-------------------------- Модуль 2/Задаие №6
+
+
+
+//-------------------------- Модуль 2/Задаие №6√-------------------------- 
 
 // let input;
 // const numbers = [];
@@ -209,6 +250,161 @@
 //       total += +input;
 //      }
 //     }
+
+
+
+
+
+//-------------------------- Модуль 3/Задаие №1√-------------------------- 
+// const user = {
+//   name: 'Mango',
+//   age: 20,
+//   hobby: 'html',
+//   premium: true,
+// };
+
+// user.mood = "happy";
+// user.hobby ="JavaScript";
+// user.premium = false;
+
+// const keys = Object.keys(user);
+// for (const keys in user) {
+//   console.log('Key: ', keys);}
+
+
+
+
+
+//-------------------------- Модуль 3/Задаие №2√-------------------------- 
+//  const countProps = {
+//   name: 'Mango',
+//   age: 2
+//  }
+ 
+ 
+//  countProp() = (() => {
+//    counter = 0;
+//    for (var key in countProps) {
+//      counter++;
+//  }
+// })
+
+ 
+// console.log(countProps({})); // 0
+// console.log(countProps({ name: 'Mango', age: 2 })); // 2
+// console.log(countProps({ mail: 'poly@mail.com', isOnline: true, score: 500 })); // 3
+
+
+
+
+
+//-------------------------- Модуль 3/Задаие №3√-------------------------- 
+
+// const findBestEmployee = function(stats){
+//   let maxTask = 0;
+//   let name;
+  
+//   const keys = Object.keys(stats); 
+//   console.log(keys);
+
+//   for (const key of keys) {
+//     if (maxTask < stats[key]){
+//       maxTask = stats[key]
+//       name = key;
+//     }
+//   } 
+//   return name;
+// }
+// console.log(
+//   findBestEmployee({
+//     ann: 29,
+//     david: 35,
+//     helen: 1,
+//     lorence: 99,
+//   }),
+// ); // lorence
+
+// console.log(
+//   findBestEmployee({
+//     poly: 12,
+//     mango: 17,
+//     ajax: 4,
+//   }),
+// ); // mango
+
+// console.log(
+//   findBestEmployee({
+//     lux: 147,
+//     david: 21,
+//     kiwi: 19,
+//     chelsy: 38,
+//   }),
+// ); // lux
+
+
+
+
+
+//-------------------------- Модуль 3/Задаие №4√-------------------------- 
+
+  // const countTotalSalary = function(stats) {
+  //   let total = 0;
+  //   let summ;
+  //   for (const key in stats){
+  //     //console.log(stats [key])
+  
+  //     total += stats[key]
+  //   }
+  //   console.log(total)
+  // }
+
+  // console.log(
+  //   countTotalSalary({
+  //     mango: 100,
+  //     poly: 150,
+  //     alfred: 80,
+  //   }),
+  // ); 
+  
+  // console.log(
+  //   countTotalSalary({
+  //     kiwi: 200,
+  //     lux: 50,
+  //     chelsy: 150,
+  //   }),
+  // ); 
+
+
+
+
+
+//-------------------------- Модуль 3/Задаие №5√-------------------------- 
+  
+// const products = [
+//   { name: 'Радар', price: 1300, quantity: 4 },
+//   { name: 'Сканер', price: 2700, quantity: 3 },
+//   { name: 'Дроид', price: 400, quantity: 7 },
+//   { name: 'Захват', price: 1200, quantity: 2 },
+// ];
+
+// const keys = Object.keys(products);
+// const keys1 = Object.entries(products)
+
+// getAllPropValues = function(){
+//   'name' = products.name;
+//   'quantity' = products.quantity;
+
+// }
+
+  
+//console.log(keys1); // ['Радар', 'Сканер', 'Дроид', 'Захват']
+// console.log(getAllPropValues(products, 'name'));
+
+// console.log(getAllPropValues(products, 'quantity')); // [4, 3, 7, 2]
+
+// console.log(getAllPropValues(products, 'category')); // []
+
+
 
 
 
