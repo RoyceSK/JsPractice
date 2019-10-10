@@ -85,6 +85,8 @@ const users = [
   }
 ];
 
+
+
 const getUserNames = users => users.map(users => users.name);
 console.log(getUserNames(users));
 
@@ -102,8 +104,10 @@ const getUsersWithGender = (users, gender) => {
 console.log(getUsersWithGender(users, "male"));
 
 
+
 const getInactiveUsers = users => users.filter(users => !users.isActive);
 console.log(getInactiveUsers(users));
+
 
 
 const getUserWithEmail = (arr, email) => arr.find(x => x.email === email);
@@ -117,3 +121,11 @@ const getUsersWithAge = (users, min, max) => {
    }
 console.log(getUsersWithAge(users, 20, 30)); 
 console.log(getUsersWithAge(users, 30, 40));
+
+
+
+
+const calculateTotalBalance = users => 
+  users.reduce((acc, user) => acc + user.balance, 0)
+console.log(calculateTotalBalance(users)); 
+
