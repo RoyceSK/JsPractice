@@ -109,3 +109,11 @@ console.log(getInactiveUsers(users));
 const getUserWithEmail = (arr, email) => arr.find(x => x.email === email);
 console.log(getUserWithEmail(users, 'shereeanthony@kog.com'));
 console.log(getUserWithEmail(users, 'elmahead@omatom.com'));
+
+
+
+const getUsersWithAge = (users, min, max) => {
+   return users.filter(user => user.age <= min === user.age >= max) 
+   }
+console.log(getUsersWithAge(users, 20, 30)); 
+console.log(getUsersWithAge(users, 30, 40));
